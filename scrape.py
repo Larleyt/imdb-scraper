@@ -34,5 +34,5 @@ if __name__ == '__main__':
         data.append(title)
         sleep(1)
     print(data)   
-    #with open("out.txt", "w") as stream:
+    #with codecs.open("out.txt", "w", encoding="utf-8") as stream:
     #    stream.write(data)
